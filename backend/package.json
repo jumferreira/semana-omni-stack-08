@@ -9,6 +9,7 @@
   "dependencies": {
     "express": "^4.17.1"
   },
+  // instalado com -D pra dependencia só ser usada em ambiente de desenvolvimento
   "devDependencies": {
     "nodemon": "^1.19.1"
   }
