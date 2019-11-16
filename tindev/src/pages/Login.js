@@ -8,8 +8,6 @@ import api from '../services/api';
 
 import logo from '../assets/logo.png';
 
-// Video 4 - PAREI 52:37
-
 export default function Login({ navigation }) {
     const [user, setUser] = useState('');
 
@@ -36,7 +34,7 @@ export default function Login({ navigation }) {
 
         console.log(_id);
 
-        navigation.navigate('Main', { _id });
+        navigation.navigate('Main', { user: _id });
     }
 
     return (
